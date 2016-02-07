@@ -1,0 +1,10 @@
+year <- 2015 #sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype = "Misc",
+         title = "Multiple Imputation of Missing Categorical and Continuous Values via Bayesian Mixture Models with Local Dependence",
+         author = c(person("Jared", "Murray", "S"),
+                    person("Jerome", "Reiter", "P")),
+         year = year,
+         eprint =  "arXiv:1410.0438",
+         url = "http://arxiv.org/abs/1410.0438")
